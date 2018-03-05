@@ -41,10 +41,19 @@ Object.defineProperty(obj, age, {
 })
 ```
 
-2. 实现数据监听
+2. MVVM
 
-- `js/observe.js`
+- MVVM(Modal View ViewModal)是一种用于把数据和UI分离的一种模式
 
-3. 观察者模式
+Modal表示应用程序使用的数据,Modal保存信息,但通常不处理行为,不会对信息再次加工
 
-- 典型的观察者模式应用场景是网站订阅主题,发布/订阅模式
+View是与用户交流的桥梁
+
+ViewModal充当数据转换器, 将Modal信息转换为View信息, 将命令从View传到Modal
+
+3. 单项绑定
+- 观察数据
+- 解析模板,替换为对应的值
+
+
+
