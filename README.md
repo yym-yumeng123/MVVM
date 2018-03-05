@@ -42,3 +42,9 @@ Object.defineProperty(obj, age, {
 ```
 
 2. 实现数据监听
+
+- `js/observe.js`
+
+3. 观察者模式
+
+- 典型的观察者模式应用场景是网站订阅主题,发布/订阅模式
